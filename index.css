@@ -1,0 +1,41 @@
+*{margin: 0;
+padding: 0 ;
+outline: none;
+background-color: #1e1e1e}
+body{
+    height: 100%;
+}
+form{
+    background-color: #f2dbbb;
+    width: 300px;
+    height: 350PX;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 50%);
+}
+input[name="display"]{
+    background-color: #ababab;
+    text-align: right;
+    height: 55px;
+    border-radius: 15px;
+    margin: 5px;
+    height: 50px;
+    width: calc(100% - 30px);
+    border: none;
+    padding: 0 10px;
+}
+input[type="button"]{
+    background-color: #fff;
+    width: calc(100% / 4 - 6.6px);
+    float: left;
+    border-radius: 50px;
+    height: 52px;
+    margin: 0 0 5px 5px;
+    text-align: center;
+    border: none;
+}
+input[type="button"]:nth-last-of-type(1){
+background-color: #ae5618;
+width: calc(50% - 7px);
+}
